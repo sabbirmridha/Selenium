@@ -1,4 +1,4 @@
-# selenium Junit using java
+# selenium - Junit using java
 
 How to run this project for selenium Junit using java:
 
