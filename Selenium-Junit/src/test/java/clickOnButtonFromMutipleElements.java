@@ -45,7 +45,7 @@ public class clickOnButtonFromMutipleElements {
     }
 
     // To do a right click on a button -Right Click Me button
-   // @Test
+    //@Test
     public void rightClickOnButton(){
         driver.get("https://demoqa.com/buttons");
         WebElement doubleClickBtnElement = driver.findElement(By.id("rightClickBtn"));
