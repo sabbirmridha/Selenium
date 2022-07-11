@@ -8,7 +8,7 @@ Prerequisites:
 
 1.You must have install jdk 1.8 or above
 
-2.You must have set JAVA_HOME and GRADLE_HOME Steps:
+2.You must have set JAVA_HOME and GRADLE_HOME 
 
 3.Clone the project
 
