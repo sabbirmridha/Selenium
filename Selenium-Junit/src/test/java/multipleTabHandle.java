@@ -34,7 +34,9 @@ public class multipleTabHandle {
         driver.findElement(By.id("simpleLink")).click();
         // I will keep the two tabs in array list
         ArrayList<String> w = new ArrayList<String>(driver.getWindowHandles());
+        // manual wait
         //Thread.sleep(15000);
+
         // switch to open tab
         driver.switchTo().window(w.get(1)); // new tab value is 1 and by default tab value is 0
         String title =driver.getTitle();
