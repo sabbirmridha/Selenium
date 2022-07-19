@@ -25,3 +25,34 @@ Prerequisites:
 
 ![jUnitTestReport](https://user-images.githubusercontent.com/50478815/178106402-a0b8bf21-8d08-4641-9df7-778568418b7e.PNG)
 ![terminal view](https://user-images.githubusercontent.com/50478815/178106405-055d8103-1f07-49a6-b52e-e636f870eefa.PNG)
+
+
+# selenium - TestNG using java 
+
+Technology:
+
+---
+
+Tool: selenium
+IDE: IntelIJ
+Build tool: Gradle
+Language: Java
+Framework: TestNG
+
+---
+
+# To Run the automation script-
+
+
+1.Open cmd to the project folder
+
+2.Type this command:
+
+  gradle clean test
+
+
+# To view Allure Report type below commands
+
+allure generate allure-results --clean -o allure-report
+
+allure serve allure-results
