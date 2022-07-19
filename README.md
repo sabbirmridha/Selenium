@@ -27,7 +27,7 @@ Prerequisites:
 ![terminal view](https://user-images.githubusercontent.com/50478815/178106405-055d8103-1f07-49a6-b52e-e636f870eefa.PNG)
 
 
-# selenium - TestNG using java 
+# selenium - TestNG -POM 
 
 Technology:
 
@@ -44,6 +44,60 @@ Language: Java
 Framework: TestNG
 
 ---
+
+
+# Prerequisites :
+
+---
+
+1.Install jdk 8 or any LTS version
+
+2.Configure JAVA_HOME and GRADLE_HOME
+
+3.Download Allure latest version and configure system environment path
+
+4.Stable internet connection
+
+---
+
+# How to run this project
+
+---
+
+1.Clone the repo in your local directory
+
+2.Open terminal to the project folder
+
+3.Run below command to build the project
+
+gradle clean test
+
+
+
+4.Run  belowcommands to generate allure report-
+
+allure generate allure-results --clean -o allure-report
+
+
+5.Run below command  to generate html report and automatically open it in a web browser-
+
+allure serve allure-results
+
+---
+
+# Screenshots for Reports
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

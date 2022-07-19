@@ -1,3 +1,5 @@
+package Base;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,7 +11,7 @@ import java.time.Duration;
 
 public class Setup  {
 
-    WebDriver driver; // 'WebDriver' class has initiated here and an object named by 'diver' has created
+    public static WebDriver driver; // 'WebDriver' class has initiated here and an object named by 'diver' has created
     @BeforeTest
     public void setUp() throws IOException {
         /*setProperty driver contains 2 parameter
@@ -33,11 +35,10 @@ public class Setup  {
         driver.manage().window().maximize(); // it helps to maximize browser
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); // applicable for all test cases
     }
+
     @AfterTest
     public void logout(){
         driver.close();
     }
-
-
 
 }

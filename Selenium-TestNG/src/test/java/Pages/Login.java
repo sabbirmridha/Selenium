@@ -1,3 +1,5 @@
+package Pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,7 +22,7 @@ public class Login {
     @FindBy(xpath = "//span[contains(text(),'Test User')]")
     WebElement lblUserName;
 
-    public Login(WebDriver driver) // 'Login' is a constructor same as class name & passed a parameter
+    public Login(WebDriver driver) // 'Pages.Login' is a constructor same as class name & passed a parameter
     {
         this.driver =driver; // accessing the driver as i have initialized above
         /*
@@ -37,7 +39,6 @@ public class Login {
         txtPassword.sendKeys(password);
         btnSubmit.click();
         return lblUserName.getText();
-
 
     }
 
