@@ -55,8 +55,4 @@ Framework: TestNG
   gradle clean test
 
 
-# To view Allure Report type below commands
 
-allure generate allure-results --clean -o allure-report
-
-allure serve allure-results
