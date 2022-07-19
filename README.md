@@ -45,14 +45,7 @@ Framework: TestNG
 
 ---
 
-# To Run the automation script-
 
-
-1.Open cmd to the project folder
-
-2.Type this command:
-
-  gradle clean test
 
 
 
