@@ -87,12 +87,21 @@ allure serve allure-results
 
 # Screenshots for Reports
 
+![Test Runner Report](https://user-images.githubusercontent.com/50478815/179687134-9026550f-f731-404b-89f8-a60421d69a05.PNG)
+
+
+
+
+![AllureOverview-TestNG](https://user-images.githubusercontent.com/50478815/179687210-9542e258-a1d2-4502-84af-5bc96da7b316.PNG)
 
 
 
 
 
 
+
+
+![AllureSuits-TestNG](https://user-images.githubusercontent.com/50478815/179687258-301bb475-b7e3-4e10-b44f-bc64a8db9149.PNG)
 
 
 
